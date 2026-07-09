@@ -169,6 +169,10 @@ python scripts/test_vlm.py --model qwen2.5vl:7b --api-base http://localhost:1143
 
 個資不出機器的本地推論,正好對應本資料集的去識別化研究線。
 
+**微調**:`python scripts/export_sft.py` 會把標註轉成 LLaMA-Factory 相容的
+多模態 SFT 資料(sharegpt 格式,train/val/test 依病人切分),
+可直接拿去 QLoRA 微調 Qwen2.5-VL 等模型,對照零樣本的欄位正確率。
+
 ## 延伸研究方向
 
 1. **OCR fine-tune**:用 `ocr_lines` 訓練/評測 PaddleOCR、TrOCR 於繁中醫療場景。
