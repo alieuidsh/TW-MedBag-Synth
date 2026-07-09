@@ -1,0 +1,250 @@
+{
+  "sample_id": "twmedbag_00604",
+  "image": "images/twmedbag_00604.png",
+  "image_size": [
+    640,
+    880
+  ],
+  "hospital_template": "generic_v1",
+  "is_synthetic": true,
+  "patient_ref": "P020",
+  "pii_regions": [
+    {
+      "field": "patient_name",
+      "bbox": {
+        "x": 113,
+        "y": 66,
+        "w": 45,
+        "h": 20
+      },
+      "text": "林美雲",
+      "redact": true
+    },
+    {
+      "field": "medical_record_no",
+      "bbox": {
+        "x": 424,
+        "y": 66,
+        "w": 70,
+        "h": 20
+      },
+      "text": "57763063",
+      "redact": true
+    },
+    {
+      "field": "national_id",
+      "bbox": {
+        "x": 424,
+        "y": 95,
+        "w": 90,
+        "h": 20
+      },
+      "text": "N265352709",
+      "redact": true
+    },
+    {
+      "field": "birth_date",
+      "bbox": {
+        "x": 113,
+        "y": 125,
+        "w": 83,
+        "h": 20
+      },
+      "text": "1948-12-17",
+      "redact": true
+    }
+  ],
+  "prescription": {
+    "index": 9,
+    "drug_name_en": "Tramadol",
+    "drug_name_zh": "及通安",
+    "strength": "50mg",
+    "dosage_form": "膠囊",
+    "dose_per_admin": 1.0,
+    "unit": "顆",
+    "frequency_code": "PRN",
+    "frequency_text": "需要時",
+    "timing_code": "疼痛時",
+    "timing_text": "疼痛時",
+    "duration_days": 14,
+    "total_qty": 10.0,
+    "prn": true,
+    "indication": "止痛",
+    "field_bboxes": {
+      "dispense_date": {
+        "x": 546,
+        "y": 23,
+        "w": 74,
+        "h": 18
+      },
+      "drug_name": {
+        "x": 113,
+        "y": 171,
+        "w": 231,
+        "h": 24
+      },
+      "dosage": {
+        "x": 113,
+        "y": 201,
+        "w": 216,
+        "h": 20
+      },
+      "timing": {
+        "x": 113,
+        "y": 201,
+        "w": 45,
+        "h": 20
+      },
+      "dose": {
+        "x": 192,
+        "y": 201,
+        "w": 27,
+        "h": 20
+      },
+      "total_qty": {
+        "x": 113,
+        "y": 227,
+        "w": 116,
+        "h": 20
+      },
+      "indication": {
+        "x": 113,
+        "y": 254,
+        "w": 30,
+        "h": 20
+      },
+      "appearance": {
+        "x": 113,
+        "y": 280,
+        "w": 111,
+        "h": 20
+      },
+      "warning": {
+        "x": 113,
+        "y": 306,
+        "w": 302,
+        "h": 20
+      }
+    }
+  },
+  "ocr_lines": [
+    {
+      "text": "廣澤醫院 領藥日期:2025-10-17",
+      "bbox": {
+        "x": 20,
+        "y": 16,
+        "w": 600,
+        "h": 38
+      }
+    },
+    {
+      "text": "病人姓名 林美雲",
+      "bbox": {
+        "x": 20,
+        "y": 65,
+        "w": 289,
+        "h": 23
+      }
+    },
+    {
+      "text": "病 歷 號 57763063",
+      "bbox": {
+        "x": 331,
+        "y": 65,
+        "w": 289,
+        "h": 23
+      }
+    },
+    {
+      "text": "性別/年齡 女 / 76 歲",
+      "bbox": {
+        "x": 20,
+        "y": 94,
+        "w": 289,
+        "h": 23
+      }
+    },
+    {
+      "text": "身分證號 N265352709",
+      "bbox": {
+        "x": 331,
+        "y": 94,
+        "w": 289,
+        "h": 23
+      }
+    },
+    {
+      "text": "出生日期 1948-12-17",
+      "bbox": {
+        "x": 20,
+        "y": 124,
+        "w": 600,
+        "h": 23
+      }
+    },
+    {
+      "text": "藥品名稱 及通安 Tramadol 50mg 膠囊",
+      "bbox": {
+        "x": 20,
+        "y": 170,
+        "w": 600,
+        "h": 27
+      }
+    },
+    {
+      "text": "用法用量 疼痛時服用 1 顆,每日不超過 3 次",
+      "bbox": {
+        "x": 20,
+        "y": 200,
+        "w": 600,
+        "h": 23
+      }
+    },
+    {
+      "text": "總 量 10 顆(服用 14 天)",
+      "bbox": {
+        "x": 20,
+        "y": 226,
+        "w": 600,
+        "h": 23
+      }
+    },
+    {
+      "text": "適 應 症 止痛",
+      "bbox": {
+        "x": 20,
+        "y": 253,
+        "w": 600,
+        "h": 23
+      }
+    },
+    {
+      "text": "外觀描述 粉紅色/橘色膠囊",
+      "bbox": {
+        "x": 20,
+        "y": 279,
+        "w": 600,
+        "h": 23
+      }
+    },
+    {
+      "text": "注意事項 ⚠ 如出現皮疹、搔癢等過敏症狀請停藥並回診",
+      "bbox": {
+        "x": 20,
+        "y": 305,
+        "w": 600,
+        "h": 23
+      }
+    },
+    {
+      "text": "處方醫師:彭欣怡 藥師:徐佳蓉",
+      "bbox": {
+        "x": 20,
+        "y": 340,
+        "w": 600,
+        "h": 40
+      }
+    }
+  ],
+  "augmentation": []
+}

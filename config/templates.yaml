@@ -1,0 +1,37 @@
+# 藥袋版型清單。render.py 依 weight 隨機抽版型;
+# 尺寸為 CSS 像素,即輸出影像的像素大小(device_scale_factor=1)。
+templates:
+  - id: generic_v1
+    file: generic_v1.html
+    style: 醫學中心 A5 直式
+    width: 640
+    min_height: 880
+    weight: 0.6
+  - id: clinic_v1
+    file: clinic_v1.html
+    style: 診所熱感紙窄條
+    width: 384
+    min_height: 720
+    weight: 0.4
+
+# 版內隨機參數(render 時抽樣,增加多樣性)
+variation:
+  fonts:
+    - '"Microsoft JhengHei", "Noto Sans TC", "Noto Sans CJK TC", sans-serif'
+    - '"PMingLiU", "Noto Serif TC", "Noto Serif CJK TC", serif'
+  base_font_px: [15, 16, 17]
+  name_order: [zh_first, en_first]   # 中文商品名在前 或 英文學名在前
+  show_barcode: [true, false]
+
+# 虛構醫療院所名稱(皆非真實機構)
+hospitals:
+  generic_v1:
+    - 臺灣示範醫學中心
+    - 安馨紀念醫院
+    - 惠民綜合醫院
+    - 廣澤醫院
+  clinic_v1:
+    - 長青家庭醫學診所
+    - 康寧內科診所
+    - 永安聯合診所
+    - 禾風耳鼻喉科診所

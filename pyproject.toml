@@ -1,0 +1,21 @@
+[project]
+name = "tw-medbag-synth"
+version = "0.1.0"
+description = "台灣合成藥袋 OCR 資料集生成器(全合成、無真實個資)"
+requires-python = ">=3.11"
+readme = "README.md"
+dependencies = [
+    "pydantic>=2.5",
+    "typer>=0.9",
+    "faker>=24.0",
+    "jinja2>=3.1",
+    "playwright>=1.40",
+    "pillow>=10.0",
+    "opencv-python>=4.8",
+    "numpy>=1.26",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+fetch = ["pandas>=2.0", "requests>=2.31"]
+dev = ["pytest>=8.0"]

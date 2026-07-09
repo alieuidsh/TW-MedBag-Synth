@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #fff; font-family: {{ font_family }}; font-size: {{ base_font_px }}px; color: #1a1a1a; }
+  .bag { padding: 16px 20px 14px; }
+  .header { display: flex; justify-content: space-between; align-items: baseline;
+            border-bottom: 3px double #1d3a6e; padding-bottom: 8px; }
+  .hospital { font-size: 1.35em; font-weight: bold; color: #1d3a6e; letter-spacing: 2px; }
+  .header .date { font-size: 0.9em; color: #333; }
+  .section { padding: 8px 0; border-bottom: 1px solid #999; }
+  .row { display: flex; margin: 3px 0; line-height: 1.55; }
+  .row .lab { flex: 0 0 6.2em; font-weight: bold; color: #1d3a6e; }
+  .row .val { flex: 1; }
+  /* data-field 一律包在 inline span,bbox 才會緊貼文字而非撐滿整行 */
+  .two-col { display: flex; gap: 1.5em; }
+  .two-col .row { flex: 1; }
+  .drugname { font-size: 1.18em; font-weight: bold; }
+  .warn { color: #8a1f11; }
+  .footer { display: flex; justify-content: space-between; align-items: center;
+            padding-top: 10px; font-size: 0.88em; color: #444; }
+  .barcode { width: 150px; height: 30px;
+             background: repeating-linear-gradient(90deg,
+               #000 0 2px, #fff 2px 4px, #000 4px 5px, #fff 5px 9px,
+               #000 9px 12px, #fff 12px 14px); }
+</style>
+</head>
+<body>
+<div class="bag">
+  <div class="header" data-line>
+    <span class="hospital">{{ hospital_name }}</span>
+    <span class="date">領藥日期:<span data-field="dispense_date" data-pii="false">{{ dispense_date }}</span></span>
+  </div>
+
+  <div class="section">
+    <div class="two-col">
+      <div class="row" data-line><span class="lab">病人姓名</span>
+        <span class="val"><span data-field="patient_name" data-pii="true">{{ patient.name }}</span></span></div>
+      <div class="row" data-line><span class="lab">病 歷 號</span>
+        <span class="val"><span data-field="medical_record_no" data-pii="true">{{ patient.medical_record_no }}</span></span></div>
+    </div>
+    <div class="two-col">
+      <div class="row" data-line><span class="lab">性別/年齡</span>
+        <span class="val">{{ patient.sex }} / {{ patient.age }} 歲</span></div>
+      <div class="row" data-line><span class="lab">身分證號</span>
+        <span class="val"><span data-field="national_id" data-pii="true">{{ patient.national_id }}</span></span></div>
+    </div>
+    <div class="row" data-line><span class="lab">出生日期</span>
+      <span class="val"><span data-field="birth_date" data-pii="true">{{ patient.birth_date }}</span></span></div>
+  </div>
+
+  <div class="section">
+    <div class="row" data-line><span class="lab">藥品名稱</span>
+      <span class="val drugname"><span data-field="drug_name" data-pii="false">{{ drug_display }}</span></span></div>
+    <div class="row" data-line><span class="lab">用法用量</span>
+      <span class="val"><span data-field="dosage" data-pii="false">{% for p in dosage_parts %}{% if p.f %}<span data-field="{{ p.f }}" data-pii="false">{{ p.t }}</span>{% else %}{{ p.t }}{% endif %}{% endfor %}</span></span></div>
+    <div class="row" data-line><span class="lab">總　　量</span>
+      <span class="val"><span data-field="total_qty" data-pii="false">{{ total_text }}</span></span></div>
+    <div class="row" data-line><span class="lab">適 應 症</span>
+      <span class="val"><span data-field="indication" data-pii="false">{{ indication }}</span></span></div>
+    <div class="row" data-line><span class="lab">外觀描述</span>
+      <span class="val"><span data-field="appearance" data-pii="false">{{ appearance_text }}</span></span></div>
+    <div class="row" data-line><span class="lab">注意事項</span>
+      <span class="val warn"><span data-field="warning" data-pii="false">⚠ {{ warning_text }}</span></span></div>
+  </div>
+
+  <div class="footer" data-line>
+    <span>處方醫師:{{ doctor_name }}　藥師:{{ pharmacist_name }}</span>
+    {% if show_barcode %}<span class="barcode"></span>{% endif %}
+  </div>
+</div>
+</body>
+</html>

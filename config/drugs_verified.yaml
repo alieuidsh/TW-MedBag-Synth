@@ -1,0 +1,990 @@
+drugs:
+- name_en: Amlodipine
+  name_zh: 脈優
+  strengths:
+  - 2.5mg
+  - 5mg
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血壓
+  license_no: 衛署藥製字第034225號
+- name_en: Losartan
+  name_zh: 可悅您
+  strengths:
+  - 50mg
+  - 100mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 隨餐
+  indication: 降血壓
+  license_no: 衛署藥輸字第023655號
+  appearance_official: 水滴形 / 白 / 無
+- name_en: Valsartan
+  name_zh: 得安穩
+  strengths:
+  - 80mg
+  - 160mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血壓
+  license_no: 衛署藥輸字第023373號
+  appearance_official: 圓形 / 橘 / 直線
+- name_en: Telmisartan
+  name_zh: 必康平
+  strengths:
+  - 40mg
+  - 80mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 隨餐
+  indication: 降血壓
+  license_no: 衛署藥輸字第023161號
+  appearance_official: 橢圓形 / 白 / 無
+- name_en: Nifedipine
+  name_zh: 冠達悅
+  strengths:
+  - 30mg
+  form: 緩釋錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血壓
+  license_no: 衛署藥製字第033067號
+- name_en: Bisoprolol
+  name_zh: 康肯
+  strengths:
+  - 2.5mg
+  - 5mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 心律/血壓
+  license_no: 衛署藥輸字第017090號
+- name_en: Metoprolol
+  name_zh: 舒壓寧
+  strengths:
+  - 50mg
+  - 100mg
+  form: 緩釋錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 心律/血壓
+  license_no: 衛署藥輸字第013672號
+- name_en: Carvedilol
+  name_zh: 達利全
+  strengths:
+  - 6.25mg
+  - 12.5mg
+  form: 錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 心衰/血壓
+  license_no: 衛署藥輸字第022070號
+- name_en: Furosemide
+  name_zh: 來適泄
+  strengths:
+  - 40mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 利尿
+  license_no: 衛署藥輸字第022535號
+  appearance_official: 圓形 / 白 / 直線
+- name_en: Spironolactone
+  name_zh: 安達通
+  strengths:
+  - 25mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 利尿
+  license_no: 衛署藥輸字第012034號
+- name_en: Hydrochlorothiazide
+  name_zh: 定壓寧
+  strengths:
+  - 25mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 利尿
+  license_no: 衛署藥製字第046661號
+- name_en: Digoxin
+  name_zh: 隆我心
+  strengths:
+  - 0.25mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 心衰
+  license_no: 衛署藥輸字第009554號
+- name_en: Nitroglycerin
+  name_zh: 耐絞寧
+  strengths:
+  - 0.6mg
+  form: 舌下錠
+  typical_freq: PRN
+  typical_timing: 需要時
+  indication: 心絞痛
+  license_no: 衛署藥輸字第020802號
+  appearance_official: 圓形 / 白 / 無
+- name_en: Aspirin
+  name_zh: 伯基
+  strengths:
+  - 100mg
+  form: 腸溶錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 抗血小板
+  license_no: 衛署藥製字第037344號
+  appearance_official: 膠囊 / 橘;;;透明 / 無
+- name_en: Clopidogrel
+  name_zh: 保栓通
+  strengths:
+  - 75mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 抗血小板
+  license_no: 衛署藥輸字第025326號
+  appearance_official: 橢圓形 / 粉 / 無
+- name_en: Warfarin
+  name_zh: 可邁丁
+  strengths:
+  - 1mg
+  - 3mg
+  - 5mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 固定時間
+  indication: 抗凝血
+  license_no: 衛署藥輸字第017879號
+- name_en: Rivaroxaban
+  name_zh: 拜瑞妥
+  strengths:
+  - 10mg
+  - 15mg
+  - 20mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 抗凝血
+  license_no: 衛署藥輸字第025129號
+  appearance_official: 圓形 / 粉;;;粉 / 無
+- name_en: Isosorbide mononitrate
+  name_zh: 伊速必得
+  strengths:
+  - 40mg
+  form: 緩釋錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 心絞痛
+  license_no: 衛署藥製字第021396號
+- name_en: Cilostazol
+  name_zh: 普達
+  strengths:
+  - 50mg
+  - 100mg
+  form: 錠
+  typical_freq: BID
+  typical_timing: AC
+  indication: 末梢循環
+  license_no: 衛署藥製字第033080號
+- name_en: Atorvastatin
+  name_zh: 立普妥
+  strengths:
+  - 10mg
+  - 20mg
+  - 40mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 降血脂
+  license_no: 衛署藥輸字第022886號
+  appearance_official: 圓形 / 白 / 無
+- name_en: Rosuvastatin
+  name_zh: 冠脂妥
+  strengths:
+  - 5mg
+  - 10mg
+  - 20mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 降血脂
+  license_no: 衛署藥輸字第024597號
+  appearance_official: 圓形 / 黃 / 無
+- name_en: Simvastatin
+  name_zh: 素果
+  strengths:
+  - 20mg
+  - 40mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 降血脂
+  license_no: 衛署藥輸字第023144號
+- name_en: Ezetimibe
+  name_zh: 怡妥
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血脂
+  license_no: 衛署藥輸字第024058號
+  appearance_official: 橢圓形 / 白 / 無
+- name_en: Fenofibrate
+  name_zh: 弗尼利脂寧
+  strengths:
+  - 160mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血脂
+  license_no: 衛署藥輸字第023770號
+  appearance_official: 橢圓形 / 白 / 無
+- name_en: Metformin
+  name_zh: 庫魯化
+  strengths:
+  - 500mg
+  - 850mg
+  form: 錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 降血糖
+  license_no: 衛署藥輸字第018231號
+  appearance_official: 圓形 / 白 / 無
+- name_en: Glimepiride
+  name_zh: 瑪爾胰
+  strengths:
+  - 1mg
+  - 2mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 降血糖
+  license_no: 衛署藥輸字第022671號
+  appearance_official: 雙圓形 / 綠 / 直線
+- name_en: Gliclazide
+  name_zh: 岱蜜克龍
+  strengths:
+  - 30mg
+  - 60mg
+  form: 緩釋錠
+  typical_freq: QD
+  typical_timing: 早餐前
+  indication: 降血糖
+  license_no: 衛署藥輸字第023503號
+  appearance_official: 橢圓形 / 白 / 無
+- name_en: Sitagliptin
+  name_zh: 佳糖維
+  strengths:
+  - 50mg
+  - 100mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血糖
+  license_no: 衛署藥輸字第024667號
+- name_en: Linagliptin
+  name_zh: 糖漸平
+  strengths:
+  - 5mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 降血糖
+  license_no: 衛署藥輸字第025537號
+  appearance_official: 圓形 / 紅 / 無
+- name_en: Empagliflozin
+  name_zh: 恩排糖
+  strengths:
+  - 10mg
+  - 25mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 降血糖
+  license_no: 衛部藥輸字第026405號
+  appearance_official: 橢圓形 / 黃 / 無
+- name_en: Dapagliflozin
+  name_zh: 福適佳
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 降血糖
+  license_no: 衛部藥輸字第026475號
+  appearance_official: 圓形 / 黃 / 無
+- name_en: Acarbose
+  name_zh: 醣祿
+  strengths:
+  - 50mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: 隨第一口飯
+  indication: 降血糖
+  license_no: 衛署藥輸字第020786號
+  appearance_official: 圓形 / 白;;;白 / 無
+- name_en: Insulin glargine
+  name_zh: 蘭德仕
+  strengths:
+  - 100U/mL
+  form: 注射筆
+  typical_freq: QD
+  typical_timing: HS
+  indication: 胰島素
+  license_no: 衛署菌疫輸字第000728號
+- name_en: Omeprazole
+  name_zh: 樂酸克
+  strengths:
+  - 20mg
+  form: 膠囊
+  typical_freq: QD
+  typical_timing: AC
+  indication: 制酸/胃潰瘍
+  license_no: 衛署藥輸字第017808號
+  appearance_official: 膠囊 / 紅;;;粉 / 無
+- name_en: Esomeprazole
+  name_zh: 耐適恩
+  strengths:
+  - 20mg
+  - 40mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 制酸/胃潰瘍
+  license_no: 衛署藥輸字第024079號
+- name_en: Pantoprazole
+  name_zh: 保衛康治潰樂
+  strengths:
+  - 40mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 制酸/胃潰瘍
+  license_no: 衛署藥輸字第023306號
+- name_en: Rabeprazole
+  name_zh: 百抑潰
+  strengths:
+  - 20mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 制酸/胃潰瘍
+  license_no: 衛署藥輸字第022781號
+- name_en: Famotidine
+  name_zh: 蓋舒泰
+  strengths:
+  - 20mg
+  - 40mg
+  form: 錠
+  typical_freq: BID
+  typical_timing: AC
+  indication: 制酸
+  license_no: 衛署藥製字第031369號
+- name_en: Domperidone
+  name_zh: 摩舒益多
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: AC
+  indication: 促腸胃蠕動
+  license_no: 衛署藥製字第052531號
+  appearance_official: 膠囊 / 白;;;白 / 無
+- name_en: Mosapride
+  name_zh: 摩舒胃清
+  strengths:
+  - 5mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: AC
+  indication: 促腸胃蠕動
+  license_no: 衛署藥製字第047656號
+  appearance_official: 四邊形 / 白 / 直線
+- name_en: Metoclopramide
+  name_zh: 腹寧朗
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: AC
+  indication: 止吐
+  license_no: 衛署藥製字第022987號
+- name_en: Simethicone
+  name_zh: 加斯克兒
+  strengths:
+  - 40mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 消脹氣
+  license_no: 內衛藥製字第000079號
+- name_en: Magnesium oxide
+  name_zh: 氧化鎂
+  strengths:
+  - 250mg
+  - 500mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 制酸/軟便
+  license_no: 內衛藥製字第001816號
+  appearance_official: 圓形 / 白 / 直線
+- name_en: Sennoside
+  name_zh: 便通樂
+  strengths:
+  - 12mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 軟便
+  license_no: 衛署藥製字第030918號
+- name_en: Bisacodyl
+  name_zh: 樂可舒
+  strengths:
+  - 5mg
+  form: 腸溶錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 便祕
+  license_no: 衛署藥製字第028503號
+- name_en: Lactulose
+  name_zh: 杜化液
+  strengths:
+  - 667mg/mL
+  form: 糖漿
+  typical_freq: QD
+  typical_timing: PC
+  indication: 軟便
+  license_no: 衛署藥輸字第025302號
+- name_en: Loperamide
+  name_zh: 樂必寧
+  strengths:
+  - 2mg
+  form: 膠囊
+  typical_freq: PRN
+  typical_timing: 腹瀉時
+  indication: 止瀉
+  license_no: 衛部藥製字第060969號
+- name_en: Salbutamol
+  name_zh: 泛得林
+  strengths:
+  - 100mcg/dose
+  form: 吸入劑
+  typical_freq: PRN
+  typical_timing: 喘時
+  indication: 支氣管擴張
+  license_no: 衛署藥製字第032928號
+- name_en: Montelukast
+  name_zh: 欣流
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 氣喘/過敏
+  license_no: 衛署藥輸字第023398號
+  appearance_official: 橢圓形 / 紫 / 無
+- name_en: Ambroxol
+  name_zh: 適咳
+  strengths:
+  - 30mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 化痰
+  license_no: 衛署藥製字第046442號
+- name_en: Acetylcysteine
+  name_zh: 愛克痰
+  strengths:
+  - 600mg
+  form: 發泡錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 化痰
+  license_no: 衛署藥製字第045993號
+  appearance_official: 圓形 / 白 / 無
+- name_en: Bromhexine
+  name_zh: 布朗信
+  strengths:
+  - 8mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 化痰
+  license_no: 衛部藥製字第060966號
+- name_en: Dextromethorphan
+  name_zh: 滅咳康
+  strengths:
+  - 15mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 鎮咳
+  license_no: 衛署藥製字第027437號
+- name_en: Loratadine
+  name_zh: 樂雷塔定
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 不拘
+  indication: 抗組織胺
+  license_no: 衛署藥輸字第023329號
+- name_en: Cetirizine
+  name_zh: 勝克敏
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 抗組織胺
+  license_no: 衛署藥製字第044023號
+- name_en: Fexofenadine
+  name_zh: 艾來
+  strengths:
+  - 60mg
+  - 120mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 不拘
+  indication: 抗組織胺
+  license_no: 衛署藥輸字第023016號
+  appearance_official: 橢圓形 / 粉 / 無
+- name_en: Acetaminophen
+  name_zh: 普拿疼
+  strengths:
+  - 500mg
+  form: 錠
+  typical_freq: QID
+  typical_timing: 需要時
+  indication: 止痛退燒
+  license_no: 衛署藥製字第028474號
+- name_en: Ibuprofen
+  name_zh: 伊普
+  strengths:
+  - 100mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 消炎止痛
+  license_no: 衛部藥製字第060837號
+- name_en: Diclofenac
+  name_zh: 服他寧
+  strengths:
+  - 25mg
+  - 50mg
+  form: 腸溶錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 消炎止痛
+  license_no: 衛署藥製字第032057號
+- name_en: Celecoxib
+  name_zh: 希樂葆
+  strengths:
+  - 100mg
+  - 200mg
+  form: 膠囊
+  typical_freq: BID
+  typical_timing: PC
+  indication: 消炎止痛
+  license_no: 衛署藥輸字第023177號
+  appearance_official: 膠囊 / 白;;;白 / 無
+- name_en: Etoricoxib
+  name_zh: 萬克適
+  strengths:
+  - 60mg
+  - 90mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 消炎止痛
+  license_no: 衛署藥輸字第025050號
+- name_en: Meloxicam
+  name_zh: 骨敏捷
+  strengths:
+  - 7.5mg
+  - 15mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 消炎止痛
+  license_no: 衛署藥製字第041913號
+- name_en: Tramadol
+  name_zh: 及通安
+  strengths:
+  - 50mg
+  form: 膠囊
+  typical_freq: PRN
+  typical_timing: 疼痛時
+  indication: 止痛
+  license_no: 衛署藥輸字第023917號
+- name_en: Eperisone
+  name_zh: 乙倍力爽
+  strengths:
+  - 50mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 肌肉鬆弛
+  license_no: 衛署藥製字第042220號
+- name_en: Amoxicillin
+  name_zh: 安莫西林
+  strengths:
+  - 250mg
+  - 500mg
+  form: 膠囊
+  typical_freq: TID
+  typical_timing: PC
+  indication: 抗生素
+  license_no: 衛部藥陸輸字第000642號
+- name_en: Amoxicillin/Clavulanate
+  name_zh: 安滅菌
+  strengths:
+  - 1g
+  form: 錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 抗生素
+  license_no: 衛署藥輸字第018289號
+- name_en: Cephalexin
+  name_zh: 西法林
+  strengths:
+  - 250mg
+  - 500mg
+  form: 膠囊
+  typical_freq: QID
+  typical_timing: PC
+  indication: 抗生素
+  license_no: 衛署藥製字第023646號
+- name_en: Azithromycin
+  name_zh: 日舒
+  strengths:
+  - 250mg
+  - 500mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 抗生素
+  license_no: 衛署藥製字第037342號
+- name_en: Levofloxacin
+  name_zh: 可樂必妥
+  strengths:
+  - 500mg
+  - 750mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 抗生素
+  license_no: 衛署藥輸字第023728號
+- name_en: Metronidazole
+  name_zh: 服立治兒
+  strengths:
+  - 250mg
+  - 500mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 抗生素
+  license_no: 衛署藥製字第029345號
+- name_en: Zolpidem
+  name_zh: 使蒂諾斯
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: HS
+  typical_timing: 睡前
+  indication: 助眠
+  license_no: 衛署藥輸字第021531號
+  appearance_official: 八邊形 / 白 / 直線
+- name_en: Lorazepam
+  name_zh: 安定文
+  strengths:
+  - 0.5mg
+  - 1mg
+  - 2mg
+  form: 錠
+  typical_freq: HS
+  typical_timing: 睡前
+  indication: 安眠/抗焦慮
+  license_no: 衛署藥輸字第021065號
+- name_en: Alprazolam
+  name_zh: 贊安諾
+  strengths:
+  - 0.5mg
+  form: 錠
+  typical_freq: PRN
+  typical_timing: 焦慮時
+  indication: 抗焦慮
+  license_no: 衛署藥輸字第021140號
+  appearance_official: 橢圓形;;;橢圓形 / 粉;;;粉 / 直線;;;直線
+- name_en: Sertraline
+  name_zh: 樂復得
+  strengths:
+  - 50mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 抗憂鬱
+  license_no: 衛署藥製字第037341號
+- name_en: Escitalopram
+  name_zh: 立普能
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早上
+  indication: 抗憂鬱
+  license_no: 衛署藥輸字第023957號
+- name_en: Mirtazapine
+  name_zh: 樂活優
+  strengths:
+  - 15mg
+  - 30mg
+  form: 錠
+  typical_freq: HS
+  typical_timing: 睡前
+  indication: 抗憂鬱
+  license_no: 衛署藥輸字第024326號
+- name_en: Trazodone
+  name_zh: 美舒鬱
+  strengths:
+  - 50mg
+  form: 錠
+  typical_freq: HS
+  typical_timing: 睡前
+  indication: 助眠/抗憂鬱
+  license_no: 衛署藥製字第040198號
+  appearance_official: 圓形 / 粉 / 十字
+- name_en: Quetiapine
+  name_zh: 思樂康
+  strengths:
+  - 25mg
+  - 100mg
+  form: 錠
+  typical_freq: HS
+  typical_timing: 睡前
+  indication: 精神/助眠
+  license_no: 衛署藥輸字第022542號
+  appearance_official: 圓形 / 黃 / 無
+- name_en: Gabapentin
+  name_zh: 鎮頑癲
+  strengths:
+  - 100mg
+  - 300mg
+  form: 膠囊
+  typical_freq: TID
+  typical_timing: PC
+  indication: 神經痛
+  license_no: 衛署藥輸字第023671號
+- name_en: Pregabalin
+  name_zh: 利瑞卡
+  strengths:
+  - 75mg
+  - 150mg
+  form: 膠囊
+  typical_freq: BID
+  typical_timing: PC
+  indication: 神經痛
+  license_no: 衛署藥輸字第024995號
+  appearance_official: 膠囊 / 橘;;;白 / 無
+- name_en: Mecobalamin
+  name_zh: 彌可保
+  strengths:
+  - 500mcg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 周邊神經
+  license_no: 衛署藥製字第029630號
+  appearance_official: 膠囊 / 紅;;;橘 / 無
+- name_en: Donepezil
+  name_zh: 愛憶欣
+  strengths:
+  - 5mg
+  - 10mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 失智
+  license_no: 衛部藥輸字第027473號
+  appearance_official: 圓形;;;圓形 / 黃;;;黃 / 無;;;無
+- name_en: Memantine
+  name_zh: 憶必佳
+  strengths:
+  - 10mg
+  form: 錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 失智
+  license_no: 衛署藥輸字第024220號
+- name_en: Levodopa/Carbidopa
+  name_zh: 心寧美
+  strengths:
+  - 250/25mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: AC
+  indication: 巴金森
+  license_no: 衛署藥輸字第020251號
+  appearance_official: 橢圓形 / 黃 / 無
+- name_en: Betahistine
+  name_zh: 敏使朗
+  strengths:
+  - 6mg
+  - 12mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 眩暈
+  license_no: 衛署藥製字第029356號
+  appearance_official: 圓形 / 白 / 直線
+- name_en: Diphenidol
+  name_zh: 敵芬尼朵
+  strengths:
+  - 25mg
+  form: 錠
+  typical_freq: TID
+  typical_timing: PC
+  indication: 止暈
+  license_no: 衛署藥製字第023593號
+- name_en: Levothyroxine
+  name_zh: 昂特欣
+  strengths:
+  - 50mcg
+  - 100mcg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 早餐前空腹
+  indication: 甲狀腺
+  license_no: 衛署藥輸字第005376號
+- name_en: Alendronate
+  name_zh: 福善美
+  strengths:
+  - 70mg
+  form: 錠
+  typical_freq: QW
+  typical_timing: 早餐前空腹
+  indication: 骨鬆
+  license_no: 衛署藥輸字第023167號
+- name_en: Calcium/D3
+  name_zh: 挺立鈣強骨
+  strengths:
+  - 600mg/400IU
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 補鈣
+  license_no: 衛署藥製字第046248號
+- name_en: Allopurinol
+  name_zh: 安樂普利諾
+  strengths:
+  - 100mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 痛風
+  license_no: 衛署藥製字第014228號
+  appearance_official: 圓形 / 黃 / 直線
+- name_en: Febuxostat
+  name_zh: 福避痛
+  strengths:
+  - 40mg
+  - 80mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 痛風
+  license_no: 衛署藥輸字第025427號
+  appearance_official: 四邊形 / 黃 / 直線
+- name_en: Colchicine
+  name_zh: 秋水仙素
+  strengths:
+  - 0.5mg
+  form: 錠
+  typical_freq: PRN
+  typical_timing: 急性發作
+  indication: 痛風
+  license_no: 衛署藥輸字第010856號
+- name_en: Tamsulosin
+  name_zh: 活路利淨
+  strengths:
+  - 0.2mg
+  - 0.4mg
+  form: 膠囊
+  typical_freq: QD
+  typical_timing: PC
+  indication: 攝護腺肥大
+  license_no: 衛署藥製字第044296號
+- name_en: Finasteride
+  name_zh: 波斯卡
+  strengths:
+  - 5mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 不拘
+  indication: 攝護腺肥大
+  license_no: 衛署藥輸字第020198號
+  appearance_official: 四邊形 / 藍 / 無
+- name_en: Doxazosin
+  name_zh: 可迅
+  strengths:
+  - 1mg
+  - 2mg
+  - 4mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: HS
+  indication: 攝護腺/血壓
+  license_no: 衛署藥製字第031964號
+- name_en: Solifenacin
+  name_zh: 衛喜康
+  strengths:
+  - 5mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: 不拘
+  indication: 膀胱過動
+  license_no: 衛署藥輸字第024436號
+- name_en: Prednisolone
+  name_zh: 康速龍
+  strengths:
+  - 5mg
+  form: 錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 類固醇
+  license_no: 衛署藥製字第031676號
+  appearance_official: 圓形 / 白 / 直線
+- name_en: Ferrous sulfate
+  name_zh: 硫酸亞鐵
+  strengths:
+  - 325mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: AC
+  indication: 補鐵
+  license_no: 衛署藥輸字第012749號
+- name_en: Folic acid
+  name_zh: 葉酸
+  strengths:
+  - 5mg
+  form: 錠
+  typical_freq: QD
+  typical_timing: PC
+  indication: 補充
+  license_no: 衛署藥輸字第010086號
+- name_en: Potassium chloride
+  name_zh: 氯化鉀
+  strengths:
+  - 600mg
+  form: 緩釋錠
+  typical_freq: BID
+  typical_timing: PC
+  indication: 補鉀
+  license_no: 內衛藥製字第000024號

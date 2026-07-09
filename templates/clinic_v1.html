@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #fff; font-family: {{ font_family }};
+         font-size: {{ base_font_px - 2 }}px; color: #000; }
+  .bag { padding: 12px 12px 10px; }
+  .center { text-align: center; }
+  .clinic { font-size: 1.25em; font-weight: bold; letter-spacing: 1px; }
+  .sub { font-size: 0.85em; margin-top: 2px; }
+  hr { border: none; border-top: 1px dashed #000; margin: 7px 0; }
+  .row { margin: 3px 0; line-height: 1.5; }
+  .lab { font-weight: bold; }
+  .drugname { font-size: 1.1em; font-weight: bold; margin: 4px 0; }
+  .footer { font-size: 0.85em; margin-top: 6px; }
+  .barcode { margin: 8px auto 0; width: 130px; height: 26px;
+             background: repeating-linear-gradient(90deg,
+               #000 0 1px, #fff 1px 3px, #000 3px 5px, #fff 5px 8px,
+               #000 8px 10px, #fff 10px 12px); }
+</style>
+</head>
+<body>
+<div class="bag">
+  <div class="center" data-line>
+    <div class="clinic">{{ hospital_name }}</div>
+    <div class="sub">領藥日期:<span data-field="dispense_date" data-pii="false">{{ dispense_date }}</span></div>
+  </div>
+  <hr>
+  <div class="row" data-line><span class="lab">姓名:</span>
+    <span data-field="patient_name" data-pii="true">{{ patient.name }}</span>
+    ({{ patient.sex }}/{{ patient.age }}歲)</div>
+  <div class="row" data-line><span class="lab">病歷號:</span>
+    <span data-field="medical_record_no" data-pii="true">{{ patient.medical_record_no }}</span></div>
+  <div class="row" data-line><span class="lab">身分證:</span>
+    <span data-field="national_id" data-pii="true">{{ patient.national_id }}</span></div>
+  <hr>
+  <div class="drugname" data-line>
+    <span data-field="drug_name" data-pii="false">{{ drug_display }}</span></div>
+  <div class="row" data-line><span class="lab">用法:</span>
+    <span data-field="dosage" data-pii="false">{% for p in dosage_parts %}{% if p.f %}<span data-field="{{ p.f }}" data-pii="false">{{ p.t }}</span>{% else %}{{ p.t }}{% endif %}{% endfor %}</span></div>
+  <div class="row" data-line><span class="lab">總量:</span>
+    <span data-field="total_qty" data-pii="false">{{ total_text }}</span></div>
+  <div class="row" data-line><span class="lab">適應症:</span>
+    <span data-field="indication" data-pii="false">{{ indication }}</span></div>
+  <div class="row" data-line><span class="lab">外觀:</span>
+    <span data-field="appearance" data-pii="false">{{ appearance_text }}</span></div>
+  <div class="row" data-line><span class="lab">注意:</span>
+    <span data-field="warning" data-pii="false">{{ warning_text }}</span></div>
+  <hr>
+  <div class="footer" data-line>醫師:{{ doctor_name }} ／ 藥師:{{ pharmacist_name }}</div>
+  {% if show_barcode %}<div class="barcode"></div>{% endif %}
+</div>
+</body>
+</html>

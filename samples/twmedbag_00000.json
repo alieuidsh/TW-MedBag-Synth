@@ -1,0 +1,227 @@
+{
+  "sample_id": "twmedbag_00000",
+  "image": "images/twmedbag_00000.png",
+  "image_size": [
+    384,
+    720
+  ],
+  "hospital_template": "clinic_v1",
+  "is_synthetic": true,
+  "patient_ref": "P001",
+  "pii_regions": [
+    {
+      "field": "patient_name",
+      "bbox": {
+        "x": 50,
+        "y": 72,
+        "w": 45,
+        "h": 20
+      },
+      "text": "陳金龍",
+      "redact": true
+    },
+    {
+      "field": "medical_record_no",
+      "bbox": {
+        "x": 65,
+        "y": 98,
+        "w": 70,
+        "h": 20
+      },
+      "text": "50165258",
+      "redact": true
+    },
+    {
+      "field": "national_id",
+      "bbox": {
+        "x": 65,
+        "y": 123,
+        "w": 90,
+        "h": 20
+      },
+      "text": "H127680402",
+      "redact": true
+    }
+  ],
+  "prescription": {
+    "index": 0,
+    "drug_name_en": "Telmisartan",
+    "drug_name_zh": "必康平",
+    "strength": "40mg",
+    "dosage_form": "錠",
+    "dose_per_admin": 1.0,
+    "unit": "顆",
+    "frequency_code": "QD",
+    "frequency_text": "每日一次",
+    "timing_code": "隨餐",
+    "timing_text": "隨餐",
+    "duration_days": 7,
+    "total_qty": 7.0,
+    "prn": false,
+    "indication": "降血壓",
+    "field_bboxes": {
+      "dispense_date": {
+        "x": 184,
+        "y": 39,
+        "w": 70,
+        "h": 17
+      },
+      "drug_name": {
+        "x": 12,
+        "y": 160,
+        "w": 228,
+        "h": 22
+      },
+      "dosage": {
+        "x": 50,
+        "y": 187,
+        "w": 188,
+        "h": 20
+      },
+      "frequency": {
+        "x": 50,
+        "y": 187,
+        "w": 60,
+        "h": 20
+      },
+      "dose": {
+        "x": 147,
+        "y": 187,
+        "w": 27,
+        "h": 20
+      },
+      "timing": {
+        "x": 178,
+        "y": 187,
+        "w": 30,
+        "h": 20
+      },
+      "total_qty": {
+        "x": 50,
+        "y": 212,
+        "w": 98,
+        "h": 20
+      },
+      "indication": {
+        "x": 65,
+        "y": 238,
+        "w": 45,
+        "h": 20
+      },
+      "appearance": {
+        "x": 50,
+        "y": 263,
+        "w": 160,
+        "h": 20
+      },
+      "warning": {
+        "x": 50,
+        "y": 289,
+        "w": 285,
+        "h": 20
+      }
+    }
+  },
+  "ocr_lines": [
+    {
+      "text": "康寧內科診所 領藥日期:2025-10-23",
+      "bbox": {
+        "x": 12,
+        "y": 12,
+        "w": 360,
+        "h": 44
+      }
+    },
+    {
+      "text": "姓名: 陳金龍 (男/55歲)",
+      "bbox": {
+        "x": 12,
+        "y": 71,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "病歷號: 50165258",
+      "bbox": {
+        "x": 12,
+        "y": 97,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "身分證: H127680402",
+      "bbox": {
+        "x": 12,
+        "y": 122,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "Telmisartan 40mg (必康平) 錠",
+      "bbox": {
+        "x": 12,
+        "y": 160,
+        "w": 360,
+        "h": 22
+      }
+    },
+    {
+      "text": "用法: 每日一次,每次 1 顆,隨餐服用",
+      "bbox": {
+        "x": 12,
+        "y": 186,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "總量: 7 顆(服用 7 天)",
+      "bbox": {
+        "x": 12,
+        "y": 211,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "適應症: 降血壓",
+      "bbox": {
+        "x": 12,
+        "y": 237,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "外觀: 淡黃色圓形錠,一面刻 40",
+      "bbox": {
+        "x": 12,
+        "y": 262,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "注意: 如出現皮疹、搔癢等過敏症狀請停藥並回診",
+      "bbox": {
+        "x": 12,
+        "y": 288,
+        "w": 360,
+        "h": 23
+      }
+    },
+    {
+      "text": "醫師:周承翰 ／ 藥師:賴子豪",
+      "bbox": {
+        "x": 12,
+        "y": 325,
+        "w": 360,
+        "h": 17
+      }
+    }
+  ],
+  "augmentation": []
+}
