@@ -97,7 +97,7 @@ schema 見 [src/models.py](src/models.py)):
 正規化代碼(QD/BID/AC/PC…)方便下游應用(排程、統計、查詢)直接使用;
 若需展開為實際時間點由應用端處理,資料集刻意**不寫死** 08:00/12:00/18:00。
 
-## 免手標 bbox 的原理(核心賣點)
+## 免手標 bbox 的原理
 
 HTML 版型中每個欄位包 `data-field` 元素、每行文字包 `data-line`:
 
